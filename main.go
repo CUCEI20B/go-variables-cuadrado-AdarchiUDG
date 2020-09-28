@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var sideLength float64
+	var sideLength uint32
 	fmt.Scanln(&sideLength)
 	fmt.Println(sideLength * sideLength)
 }
